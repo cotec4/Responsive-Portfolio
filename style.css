@@ -1,3 +1,6 @@
+html {
+    height: 100%;
+}
 body {
     background-color: lightgray;
 }
@@ -41,6 +44,9 @@ hr {
 }
 body {
     overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 nav a {
     color: white;
@@ -51,4 +57,23 @@ nav a {
 }
 .navbar-brand {
     padding: 15px;
+}
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: white;
+    margin-top: auto;
+}
+footer p {
+    margin-bottom: 0px;
+}
+footer a {
+    color: gold;
+}
+footer i {
+    font-size: 150px;
+    color: #208f98;
+}
+footer i:hover {
+    color: white;
 }
