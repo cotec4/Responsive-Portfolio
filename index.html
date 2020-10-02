@@ -1,109 +1,255 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- reset CSS stylesheet -->
-    <link rel="stylesheet" href="./reset.css" type="text/css">
-    <!-- Bootstrap CSS stylesheet -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css">
-    <!-- Font Awesome Style Sheet -->
-    <link rel="stylesheet" href="./Assets/fontawesome-free-5.13.1-web/css/all.css" type="text/css">
-    <!-- Style Sheet -->
-    <link rel="stylesheet" href="./style.css" type="text/css">
-    <title>Home Screen</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Connor Cote's Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Start Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html">Connor Cote</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <!-- Nav bar for Home, Contact & Portfolio -->
-                <li class="nav-item active" id="home">
-                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Connor R. Cote</h1>
+            <h2>Operating Associate</h2>
+            <a href="./Assets/Connor R. Cote Resume.pdf" class="btn-rounded-white" download>Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        My name is Connor Cote. I have three older siblings, four nephews (soon to have one niece), many many cousins and spend the majority of my time focused on family, friends and work. I am in this class primarily to help my current career in the technology consulting field. I have a business background and want to learn more about web development and coding in particular. My story really starts in Atlanta where I was born and raised. I attended Saint Jude elementary school before attending Marist School starting in 7th grade. After Marist, I went north to attend Boston College (a school where I felt at home since all three of my siblings, my parents and my in-laws also attended). At Boston College, I majored in Finance and Accounting with a French language minor. I also had the opportunity to spend some time abroad during my junior year spending first semester in Paris, France (I was there in during the 2015 bombings and terrorist attack and am happy to discuss it if you are interested). I spent second semester in Hong Kong and traveled throughout Southeast Asia. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="December 2018 – Present">
+                <h3>Francisco Partners Consulting</h3>
+                <h4>Operating Associate</h4>
+                <p>
+                    Currently, I am an operating associate at Francisco Partners Consulting. Francisco Partners is a middle-market technology focused private equity firm, and Francisco Partners Consulting is the consulting arm of the firm. My group is made up of ~25 professionals. The 25 of us work with the investment team throughout the life cycle of our investments to get the best possible return for our limited partners. As part of goal to progress in my career, I need to be able to effectively communicate with our technology and product leaders of our portfolio companies; hence, my interest in this bootcamp. 
+                </p>
+            </div>
+
+            <div data-date="July 2017 – November 2018">
+                <h3>Bank of America Merrill Lynch</h3>
+                <h4>Financial Institutions Investment Banking Analyst</h4>
+                <p>
+                    Coming out of college, I began my career as an investment banking analyst in the financial institutions group at Bank of America Merrill Lynch. Wtihin this group, I worked primarily with the insurance, speciality finance and depository sub-groups. I worked on such deals as teh CoBiz Financial sale to Bank of Oklahoma for $977 million as well as the QBE Insurance sale of its Latin American operations to Zurich Financial. Investment banking is a very demanding job where I spent many hours focused on financial modeling and valuation. The skills I learned (both in terms of modeling and financial knowledge as well as knowing my limits and how far I can push myself) helped propel me to seek new opportunities on the operating side rather than the investing side of finance.
+                </p>
+            </div>
+
+            <div data-date="June 2016 – August 2016">
+                <h3>Bank of America Merrill Lynch</h3>
+                <h4>Financial Institutions Investment Banking Analyst Summer Intern</h4>
+                <p>
+                    During the summer between my juinor year (abroad as I mentioned above) and my senior year at Boston College, I interned in the Financial Institutions group at Bank of America Merrill Lynch. I was one of 14 interns that summer and was one of the 9 who received return offers to begin full time with the group the following year. The summer in New York and the friends I made within my intern class made the decision to return easy.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Boston College</h3>
+            <span class="education-date">Sept 2013 - May 2017</span>
+            <h4>Bachelor of Science in Management Concentrating in Finance & Accounting with a French Language Minor</h4>
+            <p>
+                I attended Boston College from fall semester in 2013 to my graduation in spring 2017. During my time at BC, I focused on business and double-majored in Finance and Accounting while continuing my studies in the French language after having taken AP French in high school. I focused on my French skills during my time abroad in Paris studying at ESCP-Europe (Paris Campus) in the fall of 2015. I have always had a passion for traveling and exploring other cultures, which is one of the many reasons why I decided to go abroad the following spring semester (spring 2016) to Hong Kong where I studied at Hong Kong University of Science and Technology and was able to explore China, South Korea and most of Southeast Asia. 
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Boston College</h3>
+            <span class="education-date">Sept 2013 - May 2017</span>
+            <h4>Student Athlete / World Traveler</h4>
+            <ul>
+                <li>
+                    Rowed for the BC Men's Crew team for all 3 years I was on campus.
                 </li>
-                <li class="nav-item" id="contact">
-                    <a class="nav-link" href="./contact.html">Contact</a>
+                <li>
+                    Traveled to over 4 continents and 20 countries while focusing on becoming conversationaly fluent in French and picking up a little Cantonese.
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                <li>
+                    Made life-long friends who I lived with in New York and will stay close to for my whole life.
                 </li>
             </ul>
         </div>
-    </nav>
-    <!-- End Nav -->
-
-    <!-- Start of Container -->
-    <div class="container">
-        <main class="card">
-            <section class="card-body">
-                <h2>About Me</h2>
-                <hr />
-                <div class="row">
-                    <div class="col-md-12">
-                        <img src="./Assets/Images/Dad, Kev and Me in Dublin.jpg" alt="Myself"
-                            class="img-thumbnail rounded float-left" style="width: 150px;" id="homePicture" />
-                        <p>Hi! My name is Connor Cote. I have three older siblings, four nephews (soon to be one niece),
-                            many many cousins and spend the majority of my time focused on family, friends and work. I
-                            am in this class primarily to help my current career in the technology consulting field. I
-                            have a business background and want to learn more about web development and coding in
-                            particular. Pictured to the left is my older brother (Kevin), myself and my dad. This
-                            picture was taken at a football game - crazy to think about attending a large sporting event
-                            now! My story really starts in Atlanta where I was born and raised. I attended Saint Jude
-                            elementary school before attending Marist School starting in 7th grade. After Marist, I went
-                            north to attend Boston College (a school where I felt at home since all three of my
-                            siblings, my parents and my in-laws also attended). At Boston College, I majored in Finance
-                            and
-                            Accounting with a French language minor. I also had the opportunity to spend some time
-                            abroad during my
-                            junior year spending first semester in Paris, France (I was there in during the 2015
-                            bombings and terrorist attack and am happy to discuss it if you are interested). I spent
-                            second
-                            semester in Hong Kong and traveled throughout Southeast Asia. </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>After graduating from Boston College, I moved to New York City and started my career in
-                            Investment Banking at Bank of America Merrill Lynch. After 4,000+ hours, I realized that
-                            banking was not the career path I wanted and switched directions into consulting. Now I work
-                            as an <span class="Job">Operations Associate</span> for <span class="Job">Francisco Partners
-                                Consulting</span> which is the consulting arm of the private equity comapny, Francisco
-                            Partners. My goal for taking this class is to develop the ability to work closely with the
-                            product teams at the companies we invest in.</p>
-                    </div>
-                </div>
-            </section>
-        </main>
+        <!-- End .education-block -->
     </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Show Me the Brews!</h3>
+                        <p>
+                            This project is a Node server based Heroku app using Sequelize! We are using the Google Maps API, Zip Code API, and Brewery API to get data based on the User's requests and provide them with a map based on location of the nearby breweries. Beer lovers can use this app to help them find craft or micro breweries around them, or this app can help the beer lovers find cool places to visit where there are many micro-breweries.
+                        </p>
+                        <a href="https://mighty-mesa-69962.herokuapp.com/" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Pandemic Effects</h3>
+                        <p>
+                            The COVID-19 global pandemic has changed every industry, probably permanently. This app allows the user to search for a keyword and compare the news headlines associated with that keyword before the pandemic began with the time now that the pandemic has begun. The app uses either the New York Times or the Guardian headlines as the source for all headlines which we then consolidate and rank in order of appearance to inform the user of what are the most commonly associated words in the headlines with the search term.
+                        </p>
+                        <a href="https://cotec4.github.io/Pandemic-Effects/" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>MySQL</li>
+            <li>Node.js</li>
+            <li>Sequelize</li>
+            <li>MongoDB</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
 
     <footer>
-        <div class="footer">
-            <i class="fab fa-aviato"></i>
-            <p>Author: Connor Cote</p>
-            <p>If you have any questions, please feel free to reach out to me at <a
-                    href="mailto:cotec4@gmail.com">cotec4@gmail.com</a> or at (404) 422-3109!</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 Connor Cote
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/cotec4" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/cotec4/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/connor-r-cote/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/connor.cote/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/connor__cote" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
+    <!-- End footer -->
 
-    <!-- Bootstrap Javascript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
 
 </html>

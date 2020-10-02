@@ -1,4 +1,22 @@
-# Responsive-Portfolio
-In my second repository (second homework assignment), I had to create a mobile responsive portfolio from scratch. I started with Bootstrap frameworks (including a navbar, responsive (grid) layout, and responsive images which worked as links to my social media accounts. I also had to create my own CSS style sheet to ensure styling beyond what Bootstrap bases provided.
+# Connor Cote Responsive Portfolio
 
-This was a challenging assignment especially ensuring the grid system functioned properly as well as specific formatting components of the nav-bar.
+This repo contains my personal portfolio. I used a template created by Ryan Fitgerald [click here](https://github.com/RyanFitzgerald/devportfolio). It is fully responsive, comes with the Bootstrap grid system and loaded with Font Awesome. 
+
+## Features
+
+* Fully responsive
+* Comes with Bootstrap grid system
+* Easy colour changes can be done through simple variable edits
+
+## Contents
+
+- [Description](#description)
+- [Contribution](#contribution)
+
+## Description
+
+This is a responsive portfolio describing who I am, my background and why I am pursuing web development / coding. This portfolio also displays the key projects I have done so far in the Full Stack Web Development Bootcamp at Georgia Tech in the summer and fall of 2020.
+
+## Contribution
+
+I used a template created by Ryan Fitgerald [click here](https://github.com/RyanFitzgerald/devportfolio). I also worked with two different teams on both projects (Show Me the Brews: Jacob Ashworth [click here](https://github.com/jeashwor) and Jacob Hoss [click here](https://github.com/JacobHoss) Pandemic Effects: Hae Seung Sung [click here](https://github.com/hsung8),  Andreia Chapman [click here](https://github.com/ACC24), and Henry Liu [click here](https://github.com/hl748))
